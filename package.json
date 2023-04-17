@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "a KISS framework to built ai driven agents",
   "main": "index.js",
+  "typings": "index.d.ts",
   "scripts": {
     "test": "jest"
   },
