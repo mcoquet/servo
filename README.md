@@ -23,14 +23,11 @@ This open-source JavaScript framework helps you create AI-driven agents with mod
         - basePlugin.js
     - interfaces/
         - baseInterface.js
-    - config.js
 ```
 
 ## Usage
 
 Extend the base classes to create custom agents, models, plugins, and interfaces.
-
-Register your custom components in config.js.
 
 Initialize the system with the configuration object.
 
