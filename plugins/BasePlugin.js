@@ -11,6 +11,11 @@ class BasePlugin {
     // Do any setup or initialization here. Leave empty if not needed.
   }
 
+  //add finalize method
+  async finalize() {
+    // Do any cleanup or finalization here. Leave empty if not needed.
+  }
+
   // This method should be implemented by each plugin to provide a public
   // interface for the plugin's functionality.
   async invoke(data) {

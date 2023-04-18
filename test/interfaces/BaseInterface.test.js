@@ -21,6 +21,11 @@ describe('BaseInterface', () => {
     expect(typeof baseInterface.init).toBe('function');
   });
 
+  //add a test for finalize
+  test('finalize should be a function', () => {
+    expect(typeof baseInterface.finalize).toBe('function');
+  });
+
   test('send should throw a Not implemented error', async () => {
     await expect(baseInterface.send('test message')).rejects.toThrow('Not implemented');
   });

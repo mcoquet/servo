@@ -26,6 +26,8 @@
   },
   "dependencies": {
     "dotenv": "^16.0.3",
+    "enquirer": "^2.3.6",
+    "inquirer": "^9.1.5",
     "openai": "^3.2.1"
   }
 }

@@ -1,0 +1,23 @@
+Previously, we discussed the open-source JavaScript framework for building AI-driven agents with components such as Agents, Models, Plugins, and Interfaces. We created typings for several classes, including BaseModel, OpenaiGPTModel, BasePlugin, and FilesystemPlugin. Additionally, we developed a BaseInterface class and created a test suite for it using Jest.
+
+In this session, we built a CLIInterface class based on the BaseInterface class, using the enquirer package for handling user input and output. We created a Jest test suite for the CLIInterface class, mocking the enquirer package to prevent the actual prompt from appearing during tests.
+
+Here are the key classes:
+
+BaseModel: Base class for AI models
+OpenaiGPTModel: Class for interacting with OpenAI GPT models
+BasePlugin: Base class for plugins that interact with the outside world
+FilesystemPlugin: Class for interacting with the file system
+BaseInterface: Base class for creating different types of interfaces
+CLIInterface: Class for creating a CLI interface based on the BaseInterface class
+
+The directory structure is: 
+agents/
+interfaces/
+models/
+plugins/
+test/
+- agents/
+- interfaces/
+- models/
+- plugins/

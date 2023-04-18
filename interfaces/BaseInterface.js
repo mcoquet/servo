@@ -7,6 +7,11 @@ class BaseInterface {
     // Optional async initialization logic
   }
 
+  //add a finalize method
+  async finalize() {
+    // Optional async finalization logic
+  }
+
   async send(message, options = {}) {
     // Send a message to the interface
     throw new Error('Not implemented');

@@ -7,6 +7,11 @@ class BaseModel {
     // Optional async initialization logic
   }
 
+  //add finalize method
+  async finalize() {
+    // Optional async finalization logic
+  }
+
   async predict(prompt, options = {}) {
     throw new Error('Not implemented');
   }
